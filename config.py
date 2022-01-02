@@ -1,6 +1,6 @@
 import os
 
-db_host = os.environ.get('DB_HOST', default='10.0.1.62')
+db_host = os.environ.get('DB_HOST', default='10.0.1.172')
 db_name = os.environ.get('DB_NAME', default='dashboard')
 db_password = os.environ.get('DB_PASSWORD', default='secure_password')
 db_port = os.environ.get('DB_PORT', default='5432')
