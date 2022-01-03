@@ -26,6 +26,6 @@ class Ticket(db.Model):
         return {
             'id': self.id,
             'name': self.name,
-            'status': self.status.string(),
+            'status': self.status_string(),
             'url': self.url
         }
